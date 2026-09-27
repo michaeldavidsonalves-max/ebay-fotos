@@ -12,7 +12,7 @@ do repo = tudo que precisa pra recriar os anúncios do zero em outra conta.
 | [`turma-do-chaves-2026-09-27.xlsx`](turma-do-chaves-2026-09-27.xlsx) | Turma do Chaves / Chespirito (El Chavo del Ocho + El Chapulín Colorado) | 14 produtos (linhas 5-18) | 2026-09-27 |
 | [`mortal-kombat-2026-09-27.xlsx`](mortal-kombat-2026-09-27.xlsx) | Mortal Kombat (Iron Studios Art Scale 1/10) | 7 produtos (linhas 19-25) | 2026-09-27 |
 | [`thundercats-2026-09-27.xlsx`](thundercats-2026-09-27.xlsx) | ThunderCats Classic (Iron Studios BDS Art Scale 1/10) | 7 linhas (linhas 5-11) | 2026-09-27 |
-| [`x-men-2026-09-27.xlsx`](x-men-2026-09-27.xlsx) | X-Men (Iron Studios BDS Art Scale 1/10, versão 1/original de cada personagem) | 31 linhas (linhas 5-35) | 2026-09-27 |
+| [`x-men-2026-09-27.xlsx`](x-men-2026-09-27.xlsx) | X-Men (Iron Studios BDS Art Scale 1/10, versão 1/original de cada personagem) | 28 linhas (linhas 5-32) | 2026-09-27 (revisão) |
 
 ## Produtos no lote "Turma do Chaves"
 
@@ -74,3 +74,53 @@ Professor X, Feiticeira Escarlate (Scarlet Witch) e Homem de Gelo (Iceman) foram
 excluídos a pedido do dono — não estão em nenhuma linha deste lote.
 Preço em branco (padrão) e Best Offer ativado (`T`="true") em todas as 31 linhas.
 Todos Usado (Condition ID 3000, "Excellent condition, original box opened only for inspection").
+
+## Revisão 27/09/2026 — v2, ajustes pós-review do dono (31 → 28 personagens)
+
+Dono revisou o lote original (galeria de validação de fotos) e pediu 3 ajustes, todos aplicados no
+arquivo `x-men-2026-09-27.xlsx` (sobrescrito, agora reflete a v2 — a v1 de 31 linhas não fica mais
+arquivada separadamente, ver histórico do git se precisar recuperar).
+
+**Removidos (peça não está mais em estoque do dono) — 6 personagens:** Domino (090413), Lady
+Deathstrike (090412), Magik (090273), Mr. Sinister (090717), Sentinel #1 (090015), Sentinel #3
+(090040). Fotos/descrições desses 6 continuam hospedadas no repo (`domino-gallery/`,
+`lady-deathstrike-gallery/`, `magik-gallery/`, `mr-sinister-gallery/`, `sentinel-1-gallery/`,
+`sentinel-3-gallery/`, `descriptions/iron-studios-domino.html` etc.) — não foram apagadas, só saíram
+da planilha atual.
+
+**Adicionados — 3 produtos novos:**
+- **Forge** (090191) — pesquisado e confirmado direto no ironstudios.com (`ironstudios.com/products/
+  statue-forge-x-men-bds-art-scale-1-10-iron-studios`). Dimensões confirmadas na própria página
+  (seção "Additional Details"): 8.6in (H) x 6.6in (W) x 7.8in (D) = 21.8 x 16.8 x 19.8cm. Galeria
+  completa (11 fotos, índices 0-10) baixada do CDN oficial e hospedada em `forge-gallery/`. Sem foto
+  de dimensões/mãos disponível — capa é o melhor shot de estúdio (`090191_0.jpg`).
+- **Storm** (090037, SKU interno Iron Studios "MARCAS28320-10" / GTIN 736532715708) — versão
+  original/clássica (traje branco-e-dourado, base de tornado/entulho), **não** a variante "X-Men:
+  Age of Apocalypse" (SKU 090461, traje preto-e-branco bicolor, base mecânica) nem a "X-Men '97".
+  Encontrada em `ironstudios.com/products/status-storm-x-men-marvel-comics-bds-art-scale-1-10-iron-
+  studios` — página existe mas vem com specs incompletas (bug/placeholder no site deles, sem
+  dimensões publicadas ali). Dimensões e peso confirmados cruzando 3 fontes independentes que batem
+  entre si (busca por UPC 736532715708, Sideshow item #906195, e a própria descrição batendo com
+  "flutuando sobre um pequeno tornado, destroços da Mansão X"): 10.2in (26cm) H x 5.5in (14cm) W x
+  7in (18cm) D, peso 1.3lbs/0.6kg. Galeria (6 fotos, índices 0-5) baixada do CDN oficial Iron
+  Studios, hospedada em `storm-gallery/`. Sem foto de dimensões disponível.
+- **Phoenix Green Variant** (912988) — **não é** um personagem "Dark Phoenix" separado como
+  originalmente cogitado nesta sessão; é a mesma escultura/pose/base de chamas da Phoenix já no
+  lote (090420), só que numa colorway alternativa (traje verde/dourado/preto em vez de
+  vermelho/dourado, visual clássico da "Dark Phoenix Saga" dos quadrinhos) — **exclusiva da
+  Sideshow**, não vendida direto no ironstudios.com (por isso não aparecia nas buscas no site deles).
+  O próprio dono achou o link e mandou: `sideshow.com/collectibles/marvel-phoenix-green-variant-iron-
+  studios-912988`. Dimensões/peso confirmados na página: 8in (20cm) H x 6.7in (17cm) W x 7.4in (19cm)
+  D, peso 1.8lbs/0.8kg, polystone hand-painted. Galeria (7 fotos) baixada do storage da Sideshow
+  (não do CDN ironstudios.com, já que esse produto não existe lá) e hospedada em
+  `phoenix-green-variant-gallery/`. **Tem foto de dimensões/escala** (marca "8"" ao lado da estátua)
+  — usada como capa (`912988_0.jpg`), única entre os 3 produtos novos que tinha essa foto disponível.
+
+Todos os 3 novos: Condition ID 3000 ("Excellent condition, original box opened only for inspection"),
+Franchise X-Men, Manufacturer Iron Studios — BDS Art Scale 1/10, Theme Comics, Scale 1:10, Best
+Offer ativado, preço em branco — mesmo padrão do resto do lote.
+
+**Roster final (28 personagens, linhas 5-32, ordem alfabética):** Albert and Elsie-Dee, Apocalypse,
+Archangel, Beast, Bishop, Blob, Colossus, Cyclops, Deadpool, Emma Frost, **Forge**, Gambit, Jean
+Grey, Magneto, Mojo, Mystique, Nightcrawler, Omega Red, Phoenix, **Phoenix Green Variant**, Psylocke,
+Pyro, Quicksilver, Rogue, Sabretooth, Silver Samurai, **Storm**, Wolverine.
