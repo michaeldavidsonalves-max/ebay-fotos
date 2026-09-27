@@ -23,5 +23,10 @@ Super Sam, Chapolín Colorado, Alma Negra, Sr. Barriga.
 Goro, Sub-Zero, Scorpion, Raiden, Shao Kahn (versão sentado no trono, Deluxe — não a versão
 "Emperor of Outworld" em pé, ainda pré-venda), Baraka, Liu Kang (linha "Klassic", peça nova).
 Todos Usado (Condition ID 3000, "Excellent condition, original box opened only for inspection")
-exceto Liu Kang, que é Novo (Condition ID 1000). Preço (`K`) deixado em branco de propósito —
-o dono preenche antes de subir no eBay de verdade.
+exceto Liu Kang, que é Novo (Condition ID 1000).
+
+## Atualização 27/09/2026 — preços e Best Offer
+
+Dono preencheu os preços reais de ambos os lotes (Turma do Chaves e Mortal Kombat) e pediu pra
+ativar "Aceitar oferta" (Best Offer) em todo anúncio — os dois arquivos arquivados acima já
+refletem essa versão final, pronta pra subir no eBay de verdade.
