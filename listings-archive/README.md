@@ -15,7 +15,7 @@ do repo = tudo que precisa pra recriar os anúncios do zero em outra conta.
 | [`x-men-2026-09-27.xlsx`](x-men-2026-09-27.xlsx) | X-Men (Iron Studios BDS Art Scale 1/10, versão 1/original de cada personagem) | 28 linhas (linhas 5-32) | 2026-09-27 (revisão) |
 | [`x-men-age-of-apocalypse-2026-09-27.xlsx`](x-men-age-of-apocalypse-2026-09-27.xlsx) | X-Men: Age of Apocalypse (Iron Studios BDS Art Scale 1/10, linha dedicada exclusivamente à saga alternativa) | 7 linhas (linhas 5-11) | 2026-09-27 |
 | [`avengers-2026-09-27.xlsx`](avengers-2026-09-27.xlsx) | Avengers (Iron Studios BDS Art Scale 1/10, span múltiplas sub-linhas de filme — Endgame, Infinity War, Thor: Ragnarok, Ant-Man and the Wasp) — v3, revisado pós-feedback do dono | 30 linhas (linhas 5-34) | 2026-09-27 (revisão v3) |
-| [`batman-arkham-knight-2026-09-28.xlsx`](batman-arkham-knight-2026-09-28.xlsx) | Batman: Arkham Knight (Iron Studios Art Scale 1/10, linha licenciada do jogo Batman: Arkham Knight — separada da linha de quadrinhos/filmes) | 13 linhas (linhas 5-17) | 2026-09-28 |
+| [`batman-arkham-knight-2026-09-28.xlsx`](batman-arkham-knight-2026-09-28.xlsx) | Batman: Arkham Knight (Iron Studios Art Scale 1/10, linha licenciada do jogo Batman: Arkham Knight — separada da linha de quadrinhos/filmes) | 15 linhas (linhas 5-19) | 2026-09-28 (revisão — +2 produtos) |
 
 ## Produtos no lote "Turma do Chaves"
 
@@ -396,3 +396,59 @@ Galerias: `arkham-knight-ak-gallery/`, `batman-dlc-arkham-knight-gallery/`,
 `deathstroke-arkham-knight-gallery/`, `harley-quinn-arkham-knight-gallery/`,
 `joker-arkham-knight-gallery/`, `robin-arkham-knight-gallery/`, `batgirl-arkham-knight-gallery/`.
 Descrições em `descriptions/iron-studios-<slug>-batman-arkham-knight-art-scale-1-10.html`.
+
+## Revisão 2026-09-28 — +2 produtos (13 &rarr; 15 linhas): Batman (padrão) e Batman Deluxe
+
+Dono baixou/achou 2 fotos de referência próprias de produtos que **não** estavam no lote original
+de 13 (`images (4).jpeg` e `images (5).jpeg`, confirmadas visualmente pela sessão orquestradora
+antes de pedir a pesquisa): a estátua **Batman padrão** dessa mesma linha Arkham Knight (pose de
+planeio com a capa bem aberta, 26,2cm x 32cm impresso na própria foto) e a **Batman Deluxe** (pose
+em pé sobre um pedestal, badge "IRON STUDIOS ART SCALE 1/10 DELUXE" visível na foto). Adicionados
+como linhas 18-19, sem tocar nas linhas 5-17 (confirmado byte-a-byte idêntico via diff do XML bruto
+da aba Listings antes/depois da edição).
+
+**Batman (padrão, linha 18, SKU `IS-ARKHAM-BATMAN-STD`)**: não achado em nenhum revendedor com
+item number próprio pesquisável diretamente (buscas por `903993`/`903994` no range sequencial da
+Sideshow, ao lado de Arkham Knight 903995 e Batman DLC 903996, retornaram 404 — provavelmente o
+item real usa um slug diferente do padrão numérico simples). Identificado e confirmado por
+correspondência visual exata com a foto do dono via **GeekAlerts** (cobertura do lançamento oficial
+Iron Studios, "Batman: Arkham Knight Batman 1:10 Scale Statue") e cruzado com **BigBadToyStore**
+(a variante "Bronze Ver." SDCC 2017 exclusive do mesmo sculpt, mesmas dimensões 32cm x 26,2cm —
+página do BBTS bloqueada pra scraping/WebFetch, 403, mas a dimensão apareceu em resultado de busca
+indexado). Dimensões: **12.6in/32cm (H) x 10.3in/26.2cm (W)**, profundidade e peso não publicados
+em nenhuma fonte consultada &mdash; campo da descrição diz isso explicitamente em vez de inventar.
+Galeria com 9 fotos (`batman-arkham-knight-gallery/`): capa (`_0`) é a própria foto de dimensões
+que o dono mandou (`images (4).jpeg`, salva localmente na sessão orquestradora, sem SKU/URL de
+revendedor associado); as outras 8 vieram do GeekAlerts (ângulos frontais, perfil e closes de
+busto), todas re-salvas como JPEG válido (o fetch original trazia como binário indistinguível, sem
+alteração visual).
+
+**Batman Deluxe (linha 19, SKU `IS-ARKHAM-BATMAN-DLX`)**: confirmado como produto genuinamente
+diferente da estátua padrão (base maior, capa de tecido real, pose em pé em vez de planeio) via
+múltiplas fontes independentes que batem entre si &mdash; Amazon ASIN `B07322NNH4` ("Iron Studios
+Batman Arkham Knight Batman (Deluxe) 1/10 Art Scale Statue"), GeekAlerts, otakumode.com ("Painted,
+non-articulated, 1/10 scale Polystone figure with real fabric cape and display stand") e
+**figureland.co.uk** (revendedor UK, listagem própria com 5 fotos oficiais aprovadas com marca
+d'água "BATMAN ARKHAM KNIGHT ... DELUXE ... IRON STUDIOS ART SCALE 1/10", confirmando **30cm/11.8in
+de altura e 1kg de peso**). Base é um **cabeça de gárgula/águia gótica em bronze** &mdash; não um
+"símbolo do morcego" como a hipótese inicial do dono sugeria (a foto batia com a descrição de outros
+sites como "gothic eagle gargoyle" e "roof decoration"); corrigido na descrição HTML e aqui pra não
+propagar a leitura errada. **Não foi encontrada foto de dimensões/mãos segurando a peça pra essa
+variante em nenhuma fonte pesquisada** (BigBadToyStore 403 bloqueado, Amazon/EntertainmentEarth
+bloquearam o fetch de conteúdo, Sideshow não tem página própria pra esse SKU específico) &mdash;
+capa (`_0`) é a própria foto de referência que o dono mandou (`images (5).jpeg`), que já é um shot
+de estúdio limpo e oficial, seguindo a regra de fallback da skill. Galeria com 8 fotos
+(`batman-deluxe-arkham-knight-gallery/`): a foto de referência do dono, 2 do GeekAlerts e 5 do
+figureland.co.uk (frente, costas, rosto, torso/cinto, base) &mdash; as 5 do figureland vieram como
+PNG e foram convertidas pra JPEG real antes do commit (extensão `.jpg` já estava certa na URL, mas o
+conteúdo binário original não era JPEG de fato; corrigido pra evitar problema de validação no eBay).
+
+Ambos: Franchise (`AP`) = `Batman`, Theme (`AX`) = `Video Games`, Scale = `1:10`, Material =
+`Polystone`, Manufacturer = `Iron Studios — Art Scale 1/10` (Deluxe leva "Art Scale 1/10 Deluxe" só
+na tabela de Specifications da própria descrição, não no item specific). Preço (`K`) em branco e
+Best Offer ativado (`T`="true") nas duas linhas, mesmo padrão do resto do lote. Ambos Usado
+(Condition ID `3000`, "Excellent condition, original box opened only for inspection") — confirmado
+que segue a mesma condição dos outros 13 itens do lote, sem pedir confirmação nova ao dono.
+
+Arquivo ativo agora é `eBay-listing-BatmanArkhamKnight-bulk-v2.xlsx` em `~/Downloads/` (15 linhas,
+5-19) — o `v1.xlsx` original de 13 linhas continua em `~/Downloads/` intocado, não foi sobrescrito.
