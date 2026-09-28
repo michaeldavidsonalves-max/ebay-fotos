@@ -14,7 +14,7 @@ do repo = tudo que precisa pra recriar os anúncios do zero em outra conta.
 | [`thundercats-2026-09-27.xlsx`](thundercats-2026-09-27.xlsx) | ThunderCats Classic (Iron Studios BDS Art Scale 1/10) | 7 linhas (linhas 5-11) | 2026-09-27 |
 | [`x-men-2026-09-27.xlsx`](x-men-2026-09-27.xlsx) | X-Men (Iron Studios BDS Art Scale 1/10, versão 1/original de cada personagem) | 28 linhas (linhas 5-32) | 2026-09-27 (revisão) |
 | [`x-men-age-of-apocalypse-2026-09-27.xlsx`](x-men-age-of-apocalypse-2026-09-27.xlsx) | X-Men: Age of Apocalypse (Iron Studios BDS Art Scale 1/10, linha dedicada exclusivamente à saga alternativa) | 7 linhas (linhas 5-11) | 2026-09-27 |
-| [`avengers-2026-09-27.xlsx`](avengers-2026-09-27.xlsx) | Avengers (Iron Studios BDS Art Scale 1/10, span múltiplas sub-linhas de filme — Endgame, Infinity War, Thor: Ragnarok, Ant-Man and the Wasp) — lote parcial/best-effort a partir de colagem própria do dono | 22 linhas (linhas 5-26) | 2026-09-27 |
+| [`avengers-2026-09-27.xlsx`](avengers-2026-09-27.xlsx) | Avengers (Iron Studios BDS Art Scale 1/10, span múltiplas sub-linhas de filme — Endgame, Infinity War, Thor: Ragnarok, Ant-Man and the Wasp) — v3, revisado pós-feedback do dono | 30 linhas (linhas 5-34) | 2026-09-27 (revisão v3) |
 
 ## Produtos no lote "Turma do Chaves"
 
@@ -239,3 +239,84 @@ condition, original box opened only for inspection").
 
 Nenhuma das 22 estátuas tinha foto oficial de "dimensões/mãos segurando a peça" disponível na galeria
 do fabricante neste lote — capa de todas é o melhor shot de estúdio disponível (posição 0 da galeria).
+
+## Revisão 27/09/2026 — v3, ajustes pós-review do dono (22 → 30 linhas, com Black Panther removido)
+
+Dono revisou o lote v2 (galeria de fotos) e pediu 3 coisas: (1) resolver a confusão do "Capitão
+América vs Capitão América", (2) reinvestigar "Ebony Maw" (achava que era Red Skull), (3) tentar
+resolver com mais esforço as posições da grade ainda em aberto. Black Panther (linha 18 da v2)
+**não entrou na v3** — já tinha sido desativado in-place pelo dono antes desta revisão ("Black
+Panther não deve ser anunciado") e foi removido de vez, não só desativado.
+
+**1) Captain America / "Cap vs Cap"** — pesquisa direta no ironstudios.com confirmou que a cena
+"os dois Capitão América brigando" (luta na escada durante o Time Heist de Vingadores: Ultimato,
+Capitão América 2023 vs. ele mesmo de 2012) **não é um produto único de uma caixa só com dois
+bonecos** — são **duas estátuas oficiais separadas**, vendidas cada uma em sua própria caixa, com
+bases de diorama que se conectam quando exibidas juntas: "Captain America 2012" (180000, traje
+clássico azul/vermelho/branco, $119.99) e "Captain America 2023" (182000, já existia no lote v2,
+traje idêntico mas pose de choque de escudos — a metade "peça avulsa" que o dono pediu). As duas
+linhas que já estavam no arquivo (`Captain America Deluxe` 168000 e `Captain America 2023` 182000)
+são confirmadas como produtos genuinamente distintos e independentes (páginas oficiais próprias) —
+`Captain America Deluxe` retrata a cena FINAL do filme (Cap empunhando Mjolnir + escudo contra
+Thanos, nada a ver com a luta contra si mesmo) e foi mantida sem alteração. Resultado: **4 linhas
+Captain America na v3** — Deluxe (mantida), 2023 (mantida, é o "anúncio separado" que o dono pediu),
+Captain America 2012 (nova, a metade que faltava) e uma linha nova de **combo/conjunto** "Captain
+America vs Captain America" (linhas 27-28... ver tabela) que representa as DUAS estátuas (2012 +
+2023) vendidas juntas como o par de diorama — é o "anúncio dos dois juntos" que o dono pediu, no
+mesmo padrão já usado no lote ThunderCats pro "Conjunto Completo" (bundle montado pelo dono, não um
+SKU oficial único da Iron Studios).
+
+**2) Ebony Maw → Red Skull** — comparação direta das fotos oficiais confirmou a suspeita do dono.
+"Ebony Maw" real (Iron Studios 090180) é um alienígena pálido/calvo com casaco estruturado,
+flutuando — **sem capuz, sem manto**, visual bem diferente de "figura escura de capuz/manto".
+"Red Skull", batizado pela Iron Studios como **"Stonekeeper"** (182002, Avengers: Endgame), é
+exatamente isso: capuz e manto esfarrapado preto/azul-marinho, só o rosto vermelho-caveira visível
+por baixo do capuz, de pé sobre uma base rochosa em Vormir. A linha antiga "ebony-maw" (linha 22 da
+v2) foi **substituída inteiramente** pelos dados corretos do Red Skull/Stonekeeper (nova
+galeria `red-skull-gallery/`, nova descrição). Como Ebony Maw também é um produto real e
+independente (e o dono já tem outras peças do Black Order no lote — Corvus Glaive, Cull Obsidian),
+foi **readicionado como linha própria** em vez de simplesmente descartado — reaproveitando a
+galeria `ebony-maw-gallery/` já hospedada no repo (fotos batem 1:1 com o produto oficial).
+
+**3) Posições da grade re-pesquisadas com mais esforço** — catálogo completo do ironstudios.com
+(`products.json`, todas as páginas) filtrado de novo por "Iron Man" e por membros do Black Order:
+- **4 variantes de Homem de Ferro vermelho/dourado confirmadas e adicionadas** (linha 1, posições
+  4/6/7/8 da grade original): Iron Man Mark 50 (156006, Vingadores: Guerra Infinita, nanotecnologia
+  vermelho-escuro/ciano), Iron Man Mark 85 regular (090046, Ultimato, vermelho/dourado clássico),
+  Iron Man Mark 85 Deluxe (090045, Ultimato, com o leque de "asas" de nanotecnologia aberto atrás
+  dos ombros + rosto sem capacete) e Iron Man (Battle of New York) (090417, linha "Infinity Saga",
+  armadura Mark VII clássica de 2012). São os únicos 4 outros produtos "Homem de Ferro BDS Art
+  Scale 1/10 vermelho/dourado voando" que existem no catálogo além do "I Am Iron Man" já presente —
+  encaixe forte com a descrição da grade, mas a posição exata de cada um dentro da grade não pôde
+  ser confirmada sem acesso à foto/colagem original (não disponível nesta sessão de revisão).
+- **Row 1 posição 9 (War Machine)**: foto/produto já usado bate com o War Machine real (cinza-chumbo
+  escuro com detalhes vermelhos) — não achada nenhuma variante "prata/azul/branco" que faça mais
+  sentido; mantido sem alteração.
+- **Row 3 posição 3 (Falcon vs Vision)**: Vision só existe na linha WandaVision da Iron Studios
+  (androide vermelho/verde, sem asas) — visual incompatível com a peça já usada (Falcon, traje
+  alado prata/branco/vermelho). Falcon confirmado, mantido sem alteração.
+- **Row 4 posição 5 (criatura escura) resolvida — General Outrider adicionado**: estátua oficial
+  165001 bate exatamente com "criatura escura e corpulenta" — seis braços, pele negra/oliva, boca
+  aberta rugindo, base de destroços com o logo dos Vingadores partido.
+- **Row 4 posição 6 (figura com lança) resolvida — Proxima Midnight adicionada**: membro do Black
+  Order (090179) com lança de energia característica — junto com Corvus Glaive e Cull Obsidian já
+  no lote, completa o "quarteto" clássico do Black Order (falta só o Ebony Maw, que também foi
+  readicionado nesta revisão).
+- **Row 4 posição 7 (figura de lança em pé)**: já resolvida na v2 como Corvus Glaive — mantida.
+- **Row 4 posição 4 (busto pequeno/escala diferente)**: **continua sem resolver**. Não foi
+  encontrado no catálogo nenhum busto ou peça fora da escala 1/10 que se encaixe claramente nessa
+  descrição sem acesso à foto original — precisa de uma foto/crop mais de perto pra identificar.
+
+Todas as 8 peças novas confirmadas (Red Skull, Ebony Maw readicionado, Captain America 2012,
+combo Cap vs Cap, General Outrider, Proxima Midnight, Iron Man Mark 50/85/85-Deluxe/Battle-of-NY)
+seguem o mesmo padrão do resto do lote: Condition ID `3000` ("Excellent condition, original box
+opened only for inspection"), Franchise `Avengers`, Theme `Movies`, Scale `1:10`, Material
+`Polystone`, Best Offer ativado, preço em branco.
+
+**Roster final v3 (30 linhas, linhas 5-34):** Black Widow, Drax, Scarlet Witch, Groot, War Machine,
+Doctor Strange, Winter Soldier, Cull Obsidian, Thor, Falcon, Wasp, Captain Marvel, Valkyrie,
+Hawkeye, I Am Iron Man, Corvus Glaive, Thanos (Black Order Deluxe), Thanos Deluxe, Captain America
+Deluxe, Captain America 2023, **Red Skull (Stonekeeper)**, **Ebony Maw**, **Captain America 2012**,
+**Captain America vs Captain America (combo)**, **General Outrider**, **Proxima Midnight**,
+**Iron Man Mark 50**, **Iron Man Mark 85**, **Iron Man Mark 85 Deluxe**, **Iron Man (Battle of New
+York)**. Black Panther permanentemente removido (não fica mais em nenhuma linha da planilha).
