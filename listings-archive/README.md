@@ -15,6 +15,7 @@ do repo = tudo que precisa pra recriar os anúncios do zero em outra conta.
 | [`x-men-2026-09-27.xlsx`](x-men-2026-09-27.xlsx) | X-Men (Iron Studios BDS Art Scale 1/10, versão 1/original de cada personagem) | 28 linhas (linhas 5-32) | 2026-09-27 (revisão) |
 | [`x-men-age-of-apocalypse-2026-09-27.xlsx`](x-men-age-of-apocalypse-2026-09-27.xlsx) | X-Men: Age of Apocalypse (Iron Studios BDS Art Scale 1/10, linha dedicada exclusivamente à saga alternativa) | 7 linhas (linhas 5-11) | 2026-09-27 |
 | [`avengers-2026-09-27.xlsx`](avengers-2026-09-27.xlsx) | Avengers (Iron Studios BDS Art Scale 1/10, span múltiplas sub-linhas de filme — Endgame, Infinity War, Thor: Ragnarok, Ant-Man and the Wasp) — v3, revisado pós-feedback do dono | 30 linhas (linhas 5-34) | 2026-09-27 (revisão v3) |
+| [`batman-arkham-knight-2026-09-28.xlsx`](batman-arkham-knight-2026-09-28.xlsx) | Batman: Arkham Knight (Iron Studios Art Scale 1/10, linha licenciada do jogo Batman: Arkham Knight — separada da linha de quadrinhos/filmes) | 13 linhas (linhas 5-17) | 2026-09-28 |
 
 ## Produtos no lote "Turma do Chaves"
 
@@ -320,3 +321,78 @@ Deluxe, Captain America 2023, **Red Skull (Stonekeeper)**, **Ebony Maw**, **Capt
 **Captain America vs Captain America (combo)**, **General Outrider**, **Proxima Midnight**,
 **Iron Man Mark 50**, **Iron Man Mark 85**, **Iron Man Mark 85 Deluxe**, **Iron Man (Battle of New
 York)**. Black Panther permanentemente removido (não fica mais em nenhuma linha da planilha).
+
+## Produtos no lote "Batman: Arkham Knight" (2026-09-28)
+
+Dono pediu "os produtos de arkham knight 1/10 do Batman da Iron Studios" sem foto de referência e
+sem exclusões — pedido explícito pra achar o lineup OFICIAL COMPLETO que a Iron Studios já lançou
+sob a linha licenciada do jogo **Batman: Arkham Knight** (Rocksteady, 2015), linha essa
+**separada** da linha de quadrinhos/filmes "Batman" mais comum da Iron Studios (que já aparece em
+outros lotes arquivados aqui, ex. Batman '89, Batman Returns, Batman: The Dark Knight, etc. — não
+confundir).
+
+**Pesquisa de roster**: `ironstudios.com/products.json` (paginado, 1087 produtos) filtrado por
+"arkham" no título/corpo/tags retornou só **1 resultado ativo** (Two-Face, 126022) — o resto da
+linha (lançada majoritariamente 2016-2018) já saiu do catálogo vivo do site oficial. Reconstruído o
+lineup completo cruzando Sideshow Collectibles (revendedor autorizado oficial, item numbers
+903995-904003 sequenciais), BigBadToyStore, Amazon, figureland.co.uk, woozymoo.com e
+manofactionfigures.com — todos revendedores autorizados, cada produto com a descrição oficial da
+Iron Studios confirmando "based on original 3D references from the game Batman: Arkham Knight" (ou
+equivalente) antes de entrar no lote. `ironstudios.com.br` também verificado (catálogo genérico
+gigante de multi-marcas, não achou nada de Iron Studios na linha Arkham Knight além do que já
+tinha sido achado no site .com).
+
+**13 produtos confirmados (linhas 5-17)**: Arkham Knight (o vilão original do jogo, 903995),
+Batman &mdash; The Dark Knight DLC (skin alternativa inspirada em "O Cavaleiro das Trevas" de Frank
+Miller, 903996), Batman &mdash; 89 DLC (skin alternativa inspirada no traje do filme de Tim Burton
+1989, IS30018/INS00188), Two-Face (126022), Scarecrow (INS00201), Nightwing (IS35373), Penguin
+(IS30012), Riddler (ISAS30045), Deathstroke (IS30064), Harley Quinn (903998), Joker (903999), Robin
+&mdash; Tim Drake (904000), Batgirl (904003).
+
+**Armadilha evitada — linhas "Arkham Knight" falsas encontradas na pesquisa**: Sideshow também
+vende um "Riddler Deluxe &mdash; DC Comics Series #7" (909937) e um "Nightwing" mais recente
+(914827, SKU vendor `DCCDCG128525-10`, ano 2025) que **parecem** parte da mesma linha pelo nome do
+personagem, mas a descrição oficial de ambos confirma que são baseados nos **quadrinhos**, não no
+jogo (sem menção a "3D reference from the game") &mdash; são relançamentos mais novos da linha de
+quadrinhos comum. Ambos **excluídos** do lote. Da mesma forma, "Killer Croc Deluxe" (CCXP 2020
+exclusive, `DCCDCG27920-10`) apareceu em buscas por "Arkham" mas é rotulado como "DC Comics" na
+própria Iron Studios, sem confirmação de licenciamento do jogo &mdash; **excluído** por falta de
+confirmação.
+
+**Nenhum produto tinha a foto oficial de "dimensões/mãos segurando a peça"** (regra da capa) — essa
+linha é anterior (2016-2018) ao início desse padrão de marketing da Iron Studios. Capa de todos os
+13 é o melhor shot de estúdio disponível na galeria de cada revendedor. Galerias: 12-13 fotos para
+os 6 personagens vendidos pela Sideshow (Arkham Knight, Batman DLC, Harley Quinn, Joker, Robin,
+Batgirl), 4-6 fotos para os demais (Two-Face via CDN oficial ironstudios.com, os outros via
+figureland.co.uk/woozymoo.com).
+
+**Todos confirmados 1/10 Art Scale** &mdash; nenhum produto dessa linha encontrado em escala
+diferente (1/6, Minico) nesta pesquisa.
+
+**Personagens do elenco do jogo pesquisados e NÃO encontrados como estátua Iron Studios**: Oracle,
+Azrael, Man-Bat, Firefly. Não confirmados como tendo recebido estátua Iron Studios nessa linha.
+
+Franchise (`AP`, item specific) = `Batman` (valor confirmado na aba Aspects do template — "Batman:
+Arkham Knight" não é um valor de enum válido ali). Na tabela de Specifications da própria descrição
+HTML (texto livre), Franchise aparece como "Batman: Arkham Knight / DC Comics" pra deixar a
+diferença clara pro comprador. Manufacturer = Iron Studios &mdash; Art Scale 1/10 (títulos oficiais
+da linha usam só "Art Scale 1/10", sem prefixo "BDS"). Theme (`AX`) = `Video Games` (confirmado
+valor válido na aba Aspects, condizente com o pedido do dono já que é uma linha licenciada de jogo,
+não quadrinho/filme). Scale = 1:10, Material = Polystone em todas as 13. Preço (`K`) em branco
+(padrão) e Best Offer ativado (`T`="true") em todas as 13 linhas. Todos Usado (Condition ID `3000`,
+"Excellent condition, original box opened only for inspection") &mdash; confirmado explicitamente
+pelo dono nesta sessão.
+
+Dimensões: só altura confirmada com segurança pra maioria (largura/profundidade não publicadas
+pelo fabricante pra essa linha mais antiga em nenhuma fonte consultada) &mdash; campo da descrição
+HTML diz explicitamente que largura/profundidade não foram publicadas, em vez de inventar um
+número. Peso do Riddler também não foi encontrado em nenhuma fonte consultada &mdash; campo diz
+"Not published" na descrição.
+
+Galerias: `arkham-knight-ak-gallery/`, `batman-dlc-arkham-knight-gallery/`,
+`batman-89-arkham-knight-gallery/`, `two-face-arkham-knight-gallery/`,
+`scarecrow-arkham-knight-gallery/`, `nightwing-arkham-knight-gallery/`,
+`penguin-arkham-knight-gallery/`, `riddler-arkham-knight-gallery/`,
+`deathstroke-arkham-knight-gallery/`, `harley-quinn-arkham-knight-gallery/`,
+`joker-arkham-knight-gallery/`, `robin-arkham-knight-gallery/`, `batgirl-arkham-knight-gallery/`.
+Descrições em `descriptions/iron-studios-<slug>-batman-arkham-knight-art-scale-1-10.html`.
