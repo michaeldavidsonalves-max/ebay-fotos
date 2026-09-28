@@ -14,6 +14,7 @@ do repo = tudo que precisa pra recriar os anúncios do zero em outra conta.
 | [`thundercats-2026-09-27.xlsx`](thundercats-2026-09-27.xlsx) | ThunderCats Classic (Iron Studios BDS Art Scale 1/10) | 7 linhas (linhas 5-11) | 2026-09-27 |
 | [`x-men-2026-09-27.xlsx`](x-men-2026-09-27.xlsx) | X-Men (Iron Studios BDS Art Scale 1/10, versão 1/original de cada personagem) | 28 linhas (linhas 5-32) | 2026-09-27 (revisão) |
 | [`x-men-age-of-apocalypse-2026-09-27.xlsx`](x-men-age-of-apocalypse-2026-09-27.xlsx) | X-Men: Age of Apocalypse (Iron Studios BDS Art Scale 1/10, linha dedicada exclusivamente à saga alternativa) | 7 linhas (linhas 5-11) | 2026-09-27 |
+| [`avengers-2026-09-27.xlsx`](avengers-2026-09-27.xlsx) | Avengers (Iron Studios BDS Art Scale 1/10, span múltiplas sub-linhas de filme — Endgame, Infinity War, Thor: Ragnarok, Ant-Man and the Wasp) — lote parcial/best-effort a partir de colagem própria do dono | 22 linhas (linhas 5-26) | 2026-09-27 |
 
 ## Produtos no lote "Turma do Chaves"
 
@@ -174,3 +175,67 @@ Galerias hospedadas com sufixo `-aoa-` pra não colidir com as galerias planas j
 `apocalypse-aoa-gallery/`, `bishop-aoa-gallery/`, `colossus-aoa-gallery/`, `magneto-aoa-gallery/`,
 `rogue-aoa-gallery/`, `storm-aoa-gallery/`, `weaponx-aoa-gallery/`. Descrições em
 `descriptions/iron-studios-<slug>-aoa-x-men-bds-art-scale-1-10.html`.
+
+## Produtos no lote "Avengers" (2026-09-27) — lote parcial/best-effort
+
+Dono mandou foto de uma colagem própria (feita por ele no Pinterest/Google, não um print oficial de
+um catálogo único) com ~5 linhas x 9 colunas de estatuetas Iron Studios que ele possui (marcadores
+verdes = peça que ele NÃO tem, excluída). A leitura visual da colagem (feita pelo Claude orquestrador,
+sem acesso direto às fotos aqui na sessão de pesquisa) veio com MUITA incerteza, principalmente nos
+vários Homem de Ferro, Capitão América e Thanos que se repetem na grade. Catálogo completo do
+ironstudios.com percorrido via `products.json` (~1087 produtos, 5 páginas) filtrando por "Avengers" e
+por nome de personagem — identificados 22 personagens com confiança HIGH/MEDIUM-HIGH/MEDIUM,
+confirmados visualmente comparando a foto oficial de cada estátua candidata com a descrição posicional
+da grade (não apenas pelo nome do produto).
+
+**Roster final (22 personagens, linhas 5-26):** Black Widow (Avengers: Endgame), Drax (Avengers:
+Infinity War), Scarlet Witch (Avengers: Endgame), Groot (Avengers: Endgame), War Machine (Avengers:
+Infinity War), Doctor Strange (Avengers: Infinity War), Winter Soldier (Avengers: Infinity War), Cull
+Obsidian/Black Order (Avengers: Endgame), Thor (Avengers: Endgame), Falcon (Avengers: Infinity War),
+Wasp (Ant-Man and the Wasp), Captain Marvel (Avengers: Endgame), Valkyrie (Thor: Ragnarok), Black
+Panther (Avengers: Endgame), Hawkeye (Avengers: Endgame), I Am Iron Man/Tony Stark (Avengers:
+Endgame), Corvus Glaive/Black Order (Avengers: Endgame), Ebony Maw/Black Order (Avengers: Endgame),
+Thanos Black Order Deluxe — pose parado com manopla (Avengers: Endgame), Thanos Deluxe — pose saltando
+com espada dupla (Avengers: Endgame), Captain America Deluxe — pose de aterrissagem com Mjolnir+escudo
+(Avengers: Endgame), Captain America 2023 — pose de choque de escudos (Avengers: Endgame).
+
+**Correções feitas em cima do palpite inicial da leitura da colagem** (confirmadas por foto oficial,
+não só pelo nome do produto):
+- Posição lida como "Hawkeye/possível Ronin" tinha o detalhe "com um arco" — a estátua Ronin de verdade
+  empunha uma katana, não arco. Trocado pela estátua "Hawkeye - Avengers: Endgame - BDS Art Scale 1/10"
+  (157033), que mostra o arco retesado e bate com a descrição.
+- Posição lida como "Captain Marvel" (figura azul/roxa **com capa**) não bate com nenhuma das duas
+  estátuas de Captain Marvel da Iron Studios (nenhuma tem capa) — reatribuída para Valkyrie (Thor:
+  Ragnarok BDS 1/10), que tem capa de tecido real azul e bate muito melhor visualmente.
+- Posição lida como "Black Widow/Maria Hill genérica, mirando arma" foi reatribuída para Winter Soldier
+  (Avengers: Infinity War BDS), cuja foto oficial mostra exatamente essa pose de mirar o rifle — Black
+  Widow (Endgame) já cobria a outra posição da grade (correndo, base de entulho).
+
+**Possível contagem duplicada flagada para o dono confirmar**: a posição lida como "Scarlet Witch" nas
+linhas 1 e 3 da grade provavelmente é a MESMA estátua (só existe uma Scarlet Witch BDS Art Scale 1/10
+na linha Avengers — "Avengers: Endgame", 169003) — construída só UMA linha na planilha (linha 7).
+
+**Itens que NÃO entraram no lote por baixa confiança / múltiplos candidatos possíveis** (grade tinha
+mais posições do que as 22 confirmadas acima — ver relatório completo da sessão pra lista detalhada
+posição-por-posição): vários Homem de Ferro Mark diferentes (linha 1, posições 4/6/7/8; linha 3 posição
+9 já resolvida como "I Am Iron Man"), Thor Ragnarok/Falcon vs Vision (linha 3 posição 3, ficou como
+Falcon Infinity War mas com confiança média), General Outrider/criaturas do Black Order (linha 4,
+posições 5/6), Corvus Glaive "montado" (linha 4 posição 6, só achada a versão solo em pé).
+
+**Dimensões**: várias estátuas mais recentes (2019-2020, era Endgame/Infinity War) têm a ficha técnica
+"Product Dimensions" em branco no site oficial atual (bug/placeholder já visto em lotes anteriores) —
+dimensões preenchidas cruzando WebSearch com revendedores autorizados (Amazon, Zavvi, HobbyDigi,
+ToyOrigin, EntertainmentEarth) quando disponível; onde não achado, campo da descrição HTML diz
+explicitamente "Not published" em vez de inventar um número.
+
+Franchise (`AP`) = `Avengers` em todas as 22 linhas (valor mais seguro pro item specific do eBay); o
+filme/linha específico de cada peça (Avengers: Endgame / Avengers: Infinity War / Thor: Ragnarok /
+Ant-Man and the Wasp) vai em `AS` (C:Movie) e também na tabela de Specifications da própria descrição
+HTML. Manufacturer = Iron Studios — BDS Art Scale 1/10 (ou "Art Scale 1/10 Deluxe" pros 2 Thanos e 2
+Captain America), Theme (`AX`) = `Movies` (pedido explícito do dono pra esse lote, diferente do
+`Comics` usado no lote X-Men), Scale = 1:10, Material = Polystone em todas. Preço (`K`) em branco e
+Best Offer ativado (`T`="true") em todas as 22 linhas. Todos Usado (Condition ID `3000`, "Excellent
+condition, original box opened only for inspection").
+
+Nenhuma das 22 estátuas tinha foto oficial de "dimensões/mãos segurando a peça" disponível na galeria
+do fabricante neste lote — capa de todas é o melhor shot de estúdio disponível (posição 0 da galeria).
