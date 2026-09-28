@@ -13,6 +13,7 @@ do repo = tudo que precisa pra recriar os anúncios do zero em outra conta.
 | [`mortal-kombat-2026-09-27.xlsx`](mortal-kombat-2026-09-27.xlsx) | Mortal Kombat (Iron Studios Art Scale 1/10) | 7 produtos (linhas 19-25) | 2026-09-27 |
 | [`thundercats-2026-09-27.xlsx`](thundercats-2026-09-27.xlsx) | ThunderCats Classic (Iron Studios BDS Art Scale 1/10) | 7 linhas (linhas 5-11) | 2026-09-27 |
 | [`x-men-2026-09-27.xlsx`](x-men-2026-09-27.xlsx) | X-Men (Iron Studios BDS Art Scale 1/10, versão 1/original de cada personagem) | 28 linhas (linhas 5-32) | 2026-09-27 (revisão) |
+| [`x-men-age-of-apocalypse-2026-09-27.xlsx`](x-men-age-of-apocalypse-2026-09-27.xlsx) | X-Men: Age of Apocalypse (Iron Studios BDS Art Scale 1/10, linha dedicada exclusivamente à saga alternativa) | 7 linhas (linhas 5-11) | 2026-09-27 |
 
 ## Produtos no lote "Turma do Chaves"
 
@@ -124,3 +125,52 @@ Offer ativado, preço em branco — mesmo padrão do resto do lote.
 Archangel, Beast, Bishop, Blob, Colossus, Cyclops, Deadpool, Emma Frost, **Forge**, Gambit, Jean
 Grey, Magneto, Mojo, Mystique, Nightcrawler, Omega Red, Phoenix, **Phoenix Green Variant**, Psylocke,
 Pyro, Quicksilver, Rogue, Sabretooth, Silver Samurai, **Storm**, Wolverine.
+
+## Produtos no lote "X-Men: Age of Apocalypse"
+
+Lote **separado** do lote "X-Men" acima, pedido explicitamente pelo dono pra cobrir só a linha
+dedicada "X-Men: Age of Apocalypse" da Iron Studios (BDS Art Scale 1/10) — a saga alternativa dos
+anos 90 onde Legion mata Xavier sem querer e Apocalypse domina a Terra. Dessa vez a regra de seleção
+foi a OPOSTA do lote "X-Men": escolher deliberadamente as versões "Age of Apocalypse", não as
+originais/planas (que já estão no outro lote e não foram duplicadas aqui).
+
+**Pesquisa de roster**: catálogo completo do ironstudios.com percorrido via `products.json`
+(paginado, ~1087 produtos no total) filtrando por "Age of Apocalypse" no título — confirmado que
+existem **exatamente 7 produtos** nessa linha, nem mais nem menos que isso, formando um diorama
+conectável (Apocalypse como peça central maior + 6 heróis menores que encaixam nas bases uns dos
+outros): Apocalypse (090464), Bishop (090463), Colossus (090462), Magneto (090466), Rogue (090465),
+Storm (090461) e Weapon X (090460, a versão feral/vilanizada do Wolverine nessa timeline). A lista
+inicial de 4 nomes que o dono tinha (Bishop/Colossus/Magneto/Rogue) ficou **incompleta** — Storm,
+Weapon X e o próprio Apocalypse também existem na linha e entraram no lote.
+
+**Fotos de dimensões (regra da capa)**: só 3 dos 7 produtos têm a foto oficial "mãos segurando a
+estátua com medidas sobrepostas" na galeria do fabricante — Apocalypse, Rogue e Storm — usadas como
+capa (posição 1 da galeria + hero da descrição) nesses 3. Os outros 4 (Bishop, Colossus, Magneto,
+Weapon X) não têm essa foto disponível no CDN oficial; a capa desses é o melhor shot de estúdio
+disponível. Dimensões/peso desses 4 vieram de revendedores autorizados que reproduzem a ficha
+técnica oficial da Iron Studios (Amazon, EntertainmentEarth, Sideshow) — confiança média, não
+confirmadas por uma foto com a marca d'água oficial.
+
+**Nota de correção**: a foto de dimensões do Apocalypse traz "361 lbs / 16,4 kg" impresso — erro de
+digitação óbvio da própria Iron Studios (23"/58cm de altura não pesa 163kg; 16,4kg convertido dá
+36,1 lbs). Peso gravado na planilha/descrição como 16.4kg / 36.1lbs, corrigindo o typo.
+
+**Condição — diferente de todos os outros lotes X-Men/Iron Studios já arquivados**: confirmado
+explicitamente pelo dono que essas 7 peças são **Novas** (Condition ID `1000`, não `3000`) — todas
+as outras linhas de action figures/estátuas arquivadas até agora eram Usado. Preço (`K`) em branco
+como padrão, e Best Offer ativado (`T`="true") em todas as 7 linhas.
+
+Franchise (item specific `AP`) gravado como `X-Men` (valor mais próximo do enum real do eBay — a
+aba Aspects do template só lista um exemplo por campo, não uma lista fechada, então não dá pra
+confirmar "X-Men: Age of Apocalypse" como valor aceito; "X-Men" é a aposta mais segura). Já na tabela
+de Specifications da própria descrição HTML (texto livre, sem validação de enum), o campo Franchise
+aparece como "X-Men: Age of Apocalypse / Marvel Comics" pra deixar a diferença clara pro comprador.
+Manufacturer = Iron Studios — BDS Art Scale 1/10, Theme = Comics, Scale = 1:10, Material = Polystone
+em todos os 7 (confirmado no site oficial: "may contain parts in resin, PVC, metal and fabric").
+
+Galerias hospedadas com sufixo `-aoa-` pra não colidir com as galerias planas já existentes no repo
+(`apocalypse-gallery/`, `bishop-gallery/`, `colossus-gallery/`, `magneto-gallery/`, `rogue-gallery/`,
+`storm-gallery/`, `wolverine-gallery/` continuam intactas, sem nenhum arquivo sobrescrito): novo
+`apocalypse-aoa-gallery/`, `bishop-aoa-gallery/`, `colossus-aoa-gallery/`, `magneto-aoa-gallery/`,
+`rogue-aoa-gallery/`, `storm-aoa-gallery/`, `weaponx-aoa-gallery/`. Descrições em
+`descriptions/iron-studios-<slug>-aoa-x-men-bds-art-scale-1-10.html`.
