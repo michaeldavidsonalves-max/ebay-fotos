@@ -16,12 +16,56 @@ do repo = tudo que precisa pra recriar os anúncios do zero em outra conta.
 | [`x-men-age-of-apocalypse-2026-09-27.xlsx`](x-men-age-of-apocalypse-2026-09-27.xlsx) | X-Men: Age of Apocalypse (Iron Studios BDS Art Scale 1/10, linha dedicada exclusivamente à saga alternativa) | 7 linhas (linhas 5-11) | 2026-09-27 |
 | [`avengers-2026-09-27.xlsx`](avengers-2026-09-27.xlsx) | Avengers (Iron Studios BDS Art Scale 1/10, span múltiplas sub-linhas de filme — Endgame, Infinity War, Thor: Ragnarok, Ant-Man and the Wasp) — v4, gap-fill de personagens do catálogo oficial ainda não cobertos | 42 linhas (linhas 5-46) | 2026-09-28 (revisão v4 — gap-fill, +12) |
 | [`batman-arkham-knight-2026-09-28.xlsx`](batman-arkham-knight-2026-09-28.xlsx) | Batman: Arkham Knight (Iron Studios Art Scale 1/10, linha licenciada do jogo Batman: Arkham Knight — separada da linha de quadrinhos/filmes) | 15 linhas (linhas 5-19) | 2026-09-28 (revisão — +2 produtos) |
+| [`captain-america-civil-war-winter-soldier-2026-09-28.xlsx`](captain-america-civil-war-winter-soldier-2026-09-28.xlsx) | Captain America: Civil War (Iron Studios Art Scale 1/10, 8 produtos) + Captain America: The Winter Soldier 2014 solo-film (3 produtos, SKU/dimensões não confirmadas — ver nota) | 11 linhas (linhas 5-15) | 2026-09-28 |
 
 ## Produtos no lote "Turma do Chaves"
 
 Chiquinha/La Chilindrina, El Chavo (Chaves) Deluxe, Nhonho, Don Ramón (versão churros), Doña
 Florinda, Doña Clotilde, Professor Girafales, Quico, Don Ramón (versão regular), Chaves (Piripaque),
 Super Sam, Chapolín Colorado, Alma Negra, Sr. Barriga.
+
+## Produtos no lote "Captain America: Civil War + The Winter Soldier"
+
+**Grupo B — Captain America: Civil War (2016), 8 produtos confirmados via figureland.co.uk**
+(revendedor UK, SKUs `ISCW*110`, todos Iron Studios Art Scale 1/10, polystone, produto genuíno da
+linha "Captain America: Civil War" lançada em 2016-2017, hoje delistada dos sites oficiais):
+Captain America (SKU `ISCWCAP10`, 25cm/9.84in, pose de escudo erguido em salto), Iron Man Mark XLVI
+(`ISCW46110`, 23cm/9in), War Machine (`ISCWWM10`, 20cm/7.8in, 0.9kg), Winter Soldier (`ISCWWS110`,
+18cm/7.1in, pose de luta/corrida — **sem rifle**, punhos fechados), Ant-Man (`ISCWANT110`,
+17cm/6.7in), Falcon (`ISCWFAL110`, 33cm/13in com asas abertas, pose de voo), Black Panther
+(`ISCWBP110`, 19cm/7.48in, 0.9kg), Vision (`ISCWVIS110`, 20cm/7.8in). 5 fotos reais por produto
+(exceto Vision, que só tinha 3 fotos únicas no site — as outras 2 vieram duplicadas do CDN e foram
+descartadas). Franchise/Movie = "Captain America" / "Captain America: Civil War", Theme =
+"Superheroes", Vintage = "No", Licensed = "Licensed Reproduction".
+
+**Grupo A — Captain America: The Winter Soldier (2014), 3 produtos — SKU/dimensões NÃO
+confirmados, ver aviso abaixo.** O dono mandou uma foto de referência própria
+(`~/Downloads/images (6).jpeg`, colagem promocional "ESTÁTUAS CAPTAIN AMERICA THE WINTER SOLDIER")
+mostrando 3 estátuas 1/10: Capitão América (traje stealth azul-marinho, escudo na mão, pose em pé),
+Winter Soldier (parado, **rifle erguido com as duas mãos**, braço metálico à mostra) e Falcão (asas
+totalmente abertas, pose de voo). Pesquisa exaustiva (site oficial Iron Studios EUA/BR, Sideshow,
+BigBadToyStore, figureland.co.uk, Kotobukiya, eBay, Mercado Livre/Toyshow.com.br) confirmou que
+**este NÃO é o mesmo produto do Grupo B** — baixei e comparei visualmente as fotos reais do Winter
+Soldier e do Captain America da linha Civil War: o Winter Soldier da Civil War está numa pose de
+luta/corrida sem arma nenhuma (punhos fechados), e o Captain America da Civil War está num salto
+dinâmico com o escudo erguido acima da cabeça — nenhum dos dois bate com a pose parada/rifle da foto
+do dono. Também não encontrei essa pose em nenhuma outra linha conhecida da Iron Studios (BDS Art
+Scale Infinity War/Endgame/Infinity Saga — todas têm pose ou traje diferentes). **Conclusão: pode
+ser uma linha regional rara não indexada pelos grandes varejistas, ou uma reprodução não-licenciada
+(KO) — um anúncio do eBay pra um "Iron Studios 1/10 Revolution Winter Soldier Statue" por US$98
+despachado da China apareceu numa busca, o que é consistente com KO.** Como não achei fonte
+confiável pra fotos adicionais desse produto específico, usei **apenas a foto de referência do
+próprio dono**, recortada em 3 (uma por personagem) + a colagem completa como segunda foto de
+contexto — só 2 fotos por produto (`_0` = recorte individual, `_1` = colagem completa), bem abaixo
+do padrão de 4-12 fotos dos outros lotes. As dimensões na planilha/descrição estão marcadas como
+"estimado, não confirmado pelo fabricante" (~20cm/7.9in, típico da linha, não um valor publicado).
+Cada descrição HTML desses 3 produtos tem uma linha extra "Sourcing Note" na tabela de
+Specifications explicando isso pro comprador. **Recomendação pro dono: conferir a caixa física
+desses 3 itens antes de publicar de verdade — se achar uma marca/SKU impresso na caixa, isso resolve
+a identificação de vez.**
+
+Ambos os grupos: Usado (Condition ID `3000`, "Excellent condition, original box opened only for
+inspection"), preço (`K`) em branco, Best Offer ativado (`T`="true"), Duration = "GTC".
 
 ## Produtos no lote "Mortal Kombat"
 
