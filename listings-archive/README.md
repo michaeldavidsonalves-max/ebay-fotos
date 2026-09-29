@@ -14,7 +14,7 @@ do repo = tudo que precisa pra recriar os anúncios do zero em outra conta.
 | [`thundercats-2026-09-27.xlsx`](thundercats-2026-09-27.xlsx) | ThunderCats Classic (Iron Studios BDS Art Scale 1/10) | 7 linhas (linhas 5-11) | 2026-09-27 |
 | [`x-men-2026-09-27.xlsx`](x-men-2026-09-27.xlsx) | X-Men (Iron Studios BDS Art Scale 1/10, versão 1/original de cada personagem) | 28 linhas (linhas 5-32) | 2026-09-27 (revisão) |
 | [`x-men-age-of-apocalypse-2026-09-27.xlsx`](x-men-age-of-apocalypse-2026-09-27.xlsx) | X-Men: Age of Apocalypse (Iron Studios BDS Art Scale 1/10, linha dedicada exclusivamente à saga alternativa) | 7 linhas (linhas 5-11) | 2026-09-27 |
-| [`avengers-2026-09-27.xlsx`](avengers-2026-09-27.xlsx) | Avengers (Iron Studios BDS Art Scale 1/10, span múltiplas sub-linhas de filme — Endgame, Infinity War, Thor: Ragnarok, Ant-Man and the Wasp) — v3, revisado pós-feedback do dono | 30 linhas (linhas 5-34) | 2026-09-27 (revisão v3) |
+| [`avengers-2026-09-27.xlsx`](avengers-2026-09-27.xlsx) | Avengers (Iron Studios BDS Art Scale 1/10, span múltiplas sub-linhas de filme — Endgame, Infinity War, Thor: Ragnarok, Ant-Man and the Wasp) — v4, gap-fill de personagens do catálogo oficial ainda não cobertos | 42 linhas (linhas 5-46) | 2026-09-28 (revisão v4 — gap-fill, +12) |
 | [`batman-arkham-knight-2026-09-28.xlsx`](batman-arkham-knight-2026-09-28.xlsx) | Batman: Arkham Knight (Iron Studios Art Scale 1/10, linha licenciada do jogo Batman: Arkham Knight — separada da linha de quadrinhos/filmes) | 15 linhas (linhas 5-19) | 2026-09-28 (revisão — +2 produtos) |
 
 ## Produtos no lote "Turma do Chaves"
@@ -321,6 +321,73 @@ Deluxe, Captain America 2023, **Red Skull (Stonekeeper)**, **Ebony Maw**, **Capt
 **Captain America vs Captain America (combo)**, **General Outrider**, **Proxima Midnight**,
 **Iron Man Mark 50**, **Iron Man Mark 85**, **Iron Man Mark 85 Deluxe**, **Iron Man (Battle of New
 York)**. Black Panther permanentemente removido (não fica mais em nenhuma linha da planilha).
+
+## Revisão 2026-09-28 — v4, gap-fill de 12 personagens Avengers (30 &rarr; 42 linhas)
+
+Varredura do catálogo completo do ironstudios.com (`products.json`, todas as páginas, filtrado por
+"Avengers"/"Endgame"/"Infinity War") pra achar personagens da linha Avengers que são produtos reais
+e oficiais mas ainda não tinham linha na planilha v3. **12 personagens confirmados e adicionados**
+(linhas 35-46, sem tocar nas linhas 5-34 — confirmado byte-a-byte idêntico via diff do XML bruto da
+aba Listings antes/depois da edição):
+
+- **Hulk (Avengers: Infinity War)** — Art Scale 1/10, pose parado com planta/destroços na base.
+- **Hulk (Avengers: Endgame)** — BDS Art Scale 1/10, "Professor Hulk" traje cinza/roxo, pose de soco.
+- **Hulk Deluxe (Avengers: Endgame)** — BDS Art Scale 1/10 Deluxe, mesma pose com base de destroços
+  ampliada.
+- **Falcon (Avengers: Endgame)** — BDS Art Scale 1/10, voando com asas abertas sobre base com o logo
+  partido dos Vingadores (distinto do Falcon já existente na v3, que é de Infinity War).
+- **Winter Soldier (Avengers: Endgame)** — Art Scale 1/10, pose de mira com rifle (distinto do Winter
+  Soldier já existente na v3, que é de Infinity War).
+- **Thanos (Avengers: Endgame)** — BDS Art Scale 1/10, pose regular saltando com espada dupla erguida
+  (produto próprio, diferente das duas variantes Deluxe já na v3 — "Black Order Deluxe" parado com
+  manopla e "Deluxe" saltando com a mesma espada dupla mas base/escultura distintas).
+- **Nebula (Avengers: Endgame)** — Art Scale 1/10, pose saltando com blaster.
+- **Ronin (Avengers: Endgame)** — BDS Art Scale 1/10, Clint Barton no traje preto/dourado de Ronin
+  (Hawkeye pós-Snap), katana em riste (produto e traje distintos do Hawkeye padrão já existente na
+  v3, que usa o traje azul/roxo com arco).
+- **Iron Patriot & Rocket (Avengers: Endgame)** — Art Scale 1/10, conjunto de duas figuras (War
+  Machine em armadura Iron Patriot + Rocket Raccoon montado nos ombros).
+- **Pepper Potts em armadura Rescue (Avengers: Endgame)** — BDS Art Scale 1/10, voando em armadura
+  azul/dourada.
+- **Star-Lord (Avengers: Endgame)** — BDS Art Scale 1/10, decolando com jato nos pés. Única peça do
+  lote com foto oficial de dimensões/escala publicada pelo fabricante (pessoa segurando a peça,
+  31cm/12,2in de altura, 860g/1,8lb) — usada como capa da galeria e do hero da descrição, conforme
+  regra padrão da skill.
+- **Star-Lord (Avengers: Infinity War)** — BDS Art Scale 1/10, pose de pé atirando sobre base de
+  discos de energia translúcidos (produto distinto do Star-Lord de Endgame acima).
+
+**Black Panther propositalmente EXCLUÍDO deste gap-fill.** A galeria de fotos (`black-panther-gallery/`)
+e a descrição HTML dele já existiam no repo desde o lote v2 original, mas a revisão v3 (ver seção
+acima, "27/09/2026") registra que o dono pediu a remoção permanente desse produto ("Black Panther não
+deve ser anunciado") — não é um personagem que ficou de fora por esquecimento. Os arquivos antigos
+(`black-panther-gallery/`, `descriptions/iron-studios-black-panther-avengers-bds-art-scale-1-10.html`)
+foram deixados no repo como estão (não referenciados por nenhuma linha da planilha), sem reintroduzir
+o produto na v4.
+
+**Dimensões**: exceto Star-Lord (Endgame), que tem foto oficial de dimensões medidas publicada pelo
+fabricante (usada como valor real), as demais 11 peças usam dimensões **estimadas** por comparação
+com estátuas Iron Studios BDS/Art Scale 1/10 de pose semelhante já catalogadas no lote (o site oficial
+não publica ficha técnica em texto pra nenhum desses 12 produtos — só a imagem de dimensões quando
+existe, e só existe pro Star-Lord Endgame neste grupo). Sinalizado aqui como estimativa, não medição
+real.
+
+Todas as 12 linhas seguem o mesmo padrão do resto do lote Avengers: Condition ID `3000` ("Excellent
+condition, original box opened only for inspection"), Franchise `Avengers`, Theme `Movies`, Scale
+`1:10`, Material `Polystone`, Best Offer ativado (`T`="true"), Duration `GTC`, preço (`K`) em branco.
+Fotos: 5-12 fotos oficiais por produto (galeria completa do ironstudios.com, coluna `M`), todas já
+verificadas como carregando (HTTP 200) via `raw.githubusercontent.com`. Descrições HTML seguem o
+padrão ONTHEFIGURE já estabelecido (banner com logo, key features, barra de confiança, especificações,
+shipping/handling, returns, aviso regulatório de colecionável adulto).
+
+Validado: `python_calamine` confirma as 12 linhas com todos os campos esperados, `unzip -tq` sem
+erro, `diff -rq` contra o arquivo original confirma que só `xl/worksheets/sheet2.xml` mudou, e
+comparação linha-a-linha do XML bruto confirma que as linhas 1-34 (cabeçalho + os 30 produtos da v3)
+permaneceram byte-a-byte idênticas.
+
+**Roster final v4 (42 linhas, linhas 5-46):** os 30 produtos da v3 (ver seção acima) + Hulk (Infinity
+War), Hulk (Endgame), Hulk Deluxe (Endgame), Falcon (Endgame), Winter Soldier (Endgame), Thanos
+(Endgame regular), Nebula, Ronin, Iron Patriot & Rocket, Pepper Potts (Rescue), Star-Lord (Endgame),
+Star-Lord (Infinity War).
 
 ## Produtos no lote "Batman: Arkham Knight" (2026-09-28)
 
