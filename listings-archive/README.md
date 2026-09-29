@@ -18,6 +18,7 @@ do repo = tudo que precisa pra recriar os anúncios do zero em outra conta.
 | [`batman-arkham-knight-2026-09-28.xlsx`](batman-arkham-knight-2026-09-28.xlsx) | Batman: Arkham Knight (Iron Studios Art Scale 1/10, linha licenciada do jogo Batman: Arkham Knight — separada da linha de quadrinhos/filmes) | 15 linhas (linhas 5-19) | 2026-09-28 (revisão — +2 produtos) |
 | [`captain-america-civil-war-winter-soldier-2026-09-28.xlsx`](captain-america-civil-war-winter-soldier-2026-09-28.xlsx) | Captain America: Civil War (Iron Studios Art Scale 1/10, 8 produtos) + Captain America: The Winter Soldier 2014 solo-film (3 produtos, SKU/dimensões não confirmadas — ver nota) | 11 linhas (linhas 5-15) | 2026-09-28 |
 | [`mcu-solo-films-2026-09-28.xlsx`](mcu-solo-films-2026-09-28.xlsx) | Filmes solo/dupla do MCU (Iron Studios Art Scale 1/10): trilogia Spider-Man (No Way Home, Far From Home, Into the Spider-Verse), Black Panther (2018 + Wakanda Forever), Doctor Strange (Multiverse of Madness), Ant-Man (2018 + Quantumania), Captain Marvel solo, Deadpool & Wolverine, Thor: Love and Thunder, Venom: Let There Be Carnage, Shang-Chi, Black Widow (2021), Eternals, Captain America: Brave New World, Fantastic Four, Iron Man Classic — 1 item (Deadpool & Wolverine Deluxe) sourced from Sideshow, não catálogo oficial Iron Studios (ver nota no relatório) | 41 linhas (linhas 5-45) | 2026-09-28 |
+| [`marvel-comics-diorama-2026-09-28.xlsx`](marvel-comics-diorama-2026-09-28.xlsx) | Marvel Comics line (12 produtos: Hulk, Odin Deluxe, Spider-Man Special Edition, Spider-Man 10th Anniversary, Iron Man Red & Chrome, Iron Man Stealth, Iron Man Unleashed Deluxe, Kingpin, Daredevil Unleashed, Thor Unleashed Deluxe, Daredevil Born Again — 11 itens, ver nota) + Infinity Gauntlet Diorama (14 produtos: Captain America/Deluxe, Dr. Strange/Deluxe, Doctor Doom/Deluxe, Hulk/Deluxe, Adam Warlock, Namor, Nova/Deluxe, Thanos, Thor) + Spider-Man vs Villains Diorama (12 produtos: Kraven, Spider-Man/Deluxe, Ghost-Spider, Miles Morales, Venom/Deluxe, Doctor Octopus, Electro, Lizard, Rhino, Green Goblin) — todos comics-continuity, não-filme. Loki Laufeyson, Spider-Man Black, Blade, Sandman, Scorpion e Vulture pedidos originalmente mas confirmados "Em Breve"/`coming_soon`/`waiting-list` no catálogo oficial (ainda não lançados) — excluídos, ver nota no relatório | 37 linhas (linhas 5-41) | 2026-09-28 |
 
 ## Produtos no lote "Turma do Chaves"
 
@@ -564,3 +565,58 @@ que segue a mesma condição dos outros 13 itens do lote, sem pedir confirmaçã
 
 Arquivo ativo agora é `eBay-listing-BatmanArkhamKnight-bulk-v2.xlsx` em `~/Downloads/` (15 linhas,
 5-19) — o `v1.xlsx` original de 13 linhas continua em `~/Downloads/` intocado, não foi sobrescrito.
+
+## Marvel Comics line + Infinity Gauntlet Diorama + Spider-Man vs Villains Diorama (2026-09-28)
+
+Lote de 37 produtos em `eBay-listing-MarvelComicsDiorama-bulk-v1.xlsx` (`~/Downloads/`), todos
+comics-continuity (não-filme), fonte primária: crawl do `products.json` dos catálogos Shopify oficiais
+`ironstudios.com` (US) e `ironstudios.com.br` (BR) — cada item confirmado por handle real antes de
+entrar na planilha.
+
+**Itens pedidos e excluídos por estarem confirmadamente não lançados ainda** (tag `coming_soon` /
+`waiting-list` / `Em Breve` / `pre-order` no próprio catálogo oficial, ou preço-placeholder absurdo
+tipo R$19.289.318,92 usado pelo site pra itens sem preço real definido):
+- **Loki Laufeyson** (Marvel Comics) — BR: variantes "Oficial"/"PréVenda", preços-placeholder
+  R$20.000/R$10.000, tag `Em Breve`.
+- **Spider-Man Black** (Marvel Comics) — BR: mesma assinatura de placeholder (R$19.289.318,92),
+  tag `Em Breve`.
+- **Blade** (Marvel Comics) — US e BR: tag `coming_soon`+`waiting-list` (US) / `Em Breve` com
+  variantes de preço-placeholder (BR).
+- **Sandman** (Spider-Man vs Villains) — tag `coming_soon` explícita em ambos os mercados.
+- **Scorpion** (Spider-Man vs Villains) — tag `coming_soon`+`waiting-list`, SKU vazio.
+- **Vulture** (Spider-Man vs Villains) — handle prefixado `pre-order-`, ainda em pré-venda.
+
+**Substituições dentro do próprio pedido** (mesmo personagem, fonte alternativa já lançada):
+- **Kingpin**: a versão "Marvel Comics" pedida está em `Em Breve` (BR) / preço-placeholder R$100.000
+  — usada em seu lugar a versão **"Kingpin — Daredevil: Born Again"** (BR, `estatua-kingpin-daredevil-born-again...`),
+  já em estoque real (variante `available:true`, preço R$999,99), e que já fazia parte do próprio
+  pedido como item separado.
+- **Miles Morales** (Spider-Man vs Villains): a listagem US tinha tag `coming_soon` — usada a
+  equivalente BR (`estatua-miles-morales-spider-man-vs-villains...`), sem essa tag, tags normais de
+  catálogo ativo.
+
+**Nota de verificação — Spider-Man (10th Anniversary)**: carrega uma tag legada `EM BREVE` no
+catálogo BR, mas a variante está `available:true`, preço real (R$1.699,99) e tem tag adicional
+`Reposição` (restock) — tratado como produto já lançado e temporariamente em reposição de estoque
+no fabricante (não "ainda não lançado"), não como os itens excluídos acima. Mantido no lote com essa
+ressalva registrada.
+
+**Fotos de baixa quantidade (fonte oficial genuinamente pobre em imagens)**: `Dr. Strange —
+Infinity Gauntlet Diorama` tem apenas 1 foto oficial publicada pelo fabricante (handle US
+`statue-dr-strange-infinity-gauntlet-diorama-marvel-bds-art-scale-1-10-iron-studios`); `Dr. Strange
+Deluxe` da mesma sub-linha tem apenas 2. Não há equivalente BR nem página alternativa com mais
+fotos — abaixo do padrão de 4-12 fotos do resto do lote, mas são as únicas fotos reais existentes no
+catálogo oficial no momento. Restante do lote variou de 6 a 10 fotos por produto (321 fotos reais no
+total, todas hospedadas em `<slug>-gallery/`).
+
+Todas as 37 linhas: Condition ID `3000` (Usado, "Excellent condition, original box opened only for
+inspection"), Duration `GTC`, Best Offer `T="true"` (`U`/`V` em branco), preço (`K`) em branco,
+Category ID (`C`) com fórmula `=FORMULA:...|261068` e cache correto em toda linha 6+, `A`/`D`/`Q`/`AO`
+explícitos em toda linha (incluindo a 5), `BC="No"`, `BD="Licensed Reproduction"`, Material
+(`AW`) = `Polystone` em todas. Validado: `unzip -tq` limpo, `diff -rq` mostrando só `sheet2.xml`
+diferente do template original, diff de coluna-a-coluna de uma linha nova contra a linha de
+referência Batman (row 17) com conjunto de colunas idêntico.
+
+Galeria de validação (fotos base64-embutidas, sem link externo, nome de cada produto = Title exato
+da planilha) salva em `/tmp/marvel-comics-diorama-gallery.html` (fora do repo — arquivo local
+temporário pro dono conferir antes de preencher preço).
