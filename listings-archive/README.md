@@ -635,3 +635,14 @@ referência Batman (row 17) com conjunto de colunas idêntico.
 Galeria de validação (fotos base64-embutidas, sem link externo, nome de cada produto = Title exato
 da planilha) salva em `/tmp/marvel-comics-diorama-gallery.html` (fora do repo — arquivo local
 temporário pro dono conferir antes de preencher preço).
+
+## Revisão 2026-10-23, v2 — ajustes pós-review do dono (5 lotes)
+
+**Itens removidos a pedido do dono (sem estoque / fora do escopo pedido):**
+- **TMNT**: tirado Leonardo/Donatello/Michelangelo/Raphael (versão "TMNT Movie"), Krang, e o "TMNT 1st Cover Set" regular (mantida a versão Signed Edition). 22 → 16 itens.
+- **Harry Potter**: tirado Hermione Granger (Polyjuice). 5 → 4 itens.
+- **Comics DC**: mantido só o Joker Deluxe, tirado Lobo e Harley Quinn. 3 → 1 item.
+- **Comics Marvel**: mantido só Thor, Black Cat, Hulk, Captain Marvel, Punisher e Daredevil — tirado Spider-Man, Venom, Deadpool, Wolverine, Rhino, Juggernaut, Captain America e Doctor Octopus. 14 → 6 itens.
+- **Power Rangers**: tirado Alpha 5 (mantido Alpha 5 Deluxe). 10 → 9 itens.
+
+Todos os 5 arquivos reconstruídos com o processo cirúrgico validado (sem duplicata de linha no XML, ordem ascendente confirmada, só `sheet2.xml` diferente do template, Description/UPC/fotos preservados byte-a-byte nas linhas mantidas). Arquivos em `~/Downloads` e galerias de fotos (mesmos links de Artifact de antes) atualizados junto.
