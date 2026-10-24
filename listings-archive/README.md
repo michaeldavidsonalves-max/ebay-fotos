@@ -656,3 +656,15 @@ Dono pediu pra tirar também o "TMNT 1st Cover Set (Signed Edition)" — a únic
 O dono esclareceu: a Hermione que tínhamos tirado antes (Polyjuice) era a errada mesmo — mas isso deixou o trio incompleto (só Harry e Ron). A versão certa que completa o set é a **Hermione Granger "escola" (sem Polyjuice)**, SKU Sideshow 907850, UPC 602883135024 — não está mais no site oficial da Iron Studios (produto de 2021/2022, 20º aniversário de "Harry Potter and the Philosopher's Stone"), achada via Sideshow. UPC sequencial com Harry (602883135017) e Ron (602883135031) confirma que é a companheira certa do trio.
 
 Adicionada como linha 9 na planilha (`C:MPN`/SKU usa o código da Sideshow, já que a Iron Studios não lista mais um código próprio pra esse item). Fotos (10) hospedadas em `hermione-granger-gallery/`. Nenhuma foto do catálogo é 100% de frente (a peça é esculpida em pose 3/4) — usada a mais frontal disponível com corpo inteiro, mesma lógica já documentada pra outros itens sem foto de frente verdadeira. Lote final: 5 itens (trio completo + a dupla do duelo).
+
+## Revisão 2026-10-23, v5 — TMNT: 2 sets completos novos (Classic e Comics)
+
+Dono pediu dois anúncios de "set completo" das 8 Tartarugas Ninjas já cadastradas (4 clássicas + 4 versão Comics), um pra cada estilo. **Importante: não existe SKU/barcode oficial da Iron Studios pra esses sets** — ao contrário do "T-Rex Attack Set" ou do "TMNT 1st Cover Set" (que são produtos reais do fabricante com código de barras próprio), aqui são 4 estátuas individuais vendidas separadamente pelo fabricante, empacotadas como kit pelo próprio vendedor. Por isso:
+- `P:UPC` = "Does not apply" (honesto — não existe código real pra um bundle criado pelo vendedor)
+- `C:MPN`/SKU = código interno criado (`SET-TMNT-CLASSIC4` e `SET-TMNT-COMICS4`)
+- Fotos: reaproveitadas as 4 fotos de capa já hospedadas das estátuas individuais (uma de cada Tartaruga), sem precisar hospedar nada novo
+- Descrição deixa claro que são 4 peças individualmente embaladas vendidas juntas como conjunto
+
+Linha Comics Version: achado durante a pesquisa que é edição limitada de 100 conjuntos no mundo todo, exclusiva da loja da própria Iron Studios — incluído na descrição.
+
+Lote TMNT final: 17 itens (15 avulsos + 2 sets).
