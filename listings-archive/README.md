@@ -646,3 +646,7 @@ temporário pro dono conferir antes de preencher preço).
 - **Power Rangers**: tirado Alpha 5 (mantido Alpha 5 Deluxe). 10 → 9 itens.
 
 Todos os 5 arquivos reconstruídos com o processo cirúrgico validado (sem duplicata de linha no XML, ordem ascendente confirmada, só `sheet2.xml` diferente do template, Description/UPC/fotos preservados byte-a-byte nas linhas mantidas). Arquivos em `~/Downloads` e galerias de fotos (mesmos links de Artifact de antes) atualizados junto.
+
+## Revisão 2026-10-23, v3 — TMNT: removida a última peça "Complete Set"
+
+Dono pediu pra tirar também o "TMNT 1st Cover Set (Signed Edition)" — a única versão do Cover Set que tinha sobrado da v2. Lote TMNT final: 15 itens, todos avulsos (nenhum "Complete Set" restante). 16 → 15 itens.
