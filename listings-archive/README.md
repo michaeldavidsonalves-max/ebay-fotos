@@ -668,3 +668,7 @@ Dono pediu dois anúncios de "set completo" das 8 Tartarugas Ninjas já cadastra
 Linha Comics Version: achado durante a pesquisa que é edição limitada de 100 conjuntos no mundo todo, exclusiva da loja da própria Iron Studios — incluído na descrição.
 
 Lote TMNT final: 17 itens (15 avulsos + 2 sets).
+
+## Correção 2026-10-23 — Power Rangers: Alpha 5 Deluxe removido (ficou faltando antes)
+
+Na revisão anterior só tinha sido tirado o "Alpha 5" simples; o "Alpha 5 Deluxe" ficou passado por engano (atualizei o Excel mas esqueci de atualizar a galeria/GitHub). Corrigido agora: lote final sem nenhum Alpha, só os 8 Rangers. 9 → 8 itens.
