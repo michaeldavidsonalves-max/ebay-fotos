@@ -672,3 +672,15 @@ Lote TMNT final: 17 itens (15 avulsos + 2 sets).
 ## Correção 2026-10-23 — Power Rangers: Alpha 5 Deluxe removido (ficou faltando antes)
 
 Na revisão anterior só tinha sido tirado o "Alpha 5" simples; o "Alpha 5 Deluxe" ficou passado por engano (atualizei o Excel mas esqueci de atualizar a galeria/GitHub). Corrigido agora: lote final sem nenhum Alpha, só os 8 Rangers. 9 → 8 itens.
+
+## Novo lote 2026-10-26 — Professor X (Marvel Comics) + Hawkman 10th Anniversary (DC Comics)
+
+Dois itens novos pedidos pelo dono a partir de links de pré-lançamento recebidos por e-mail da própria Iron Studios (campanha "CHEGOU!"). Ambos escala 1/10, linha "Comics"/Art Scale.
+
+**Iron Studios Professor X Marvel Comics 1/10 Scale Statue Collectible** — inclui cabeça extra intercambiável com capacete de interface do Cérebro. **UPC com ressalva**: o código de barras no site BR da Iron Studios é claramente um placeholder de teste (`012345678910`, sequência 0-1-2-3...), já que o produto está em pré-lançamento (anunciado originalmente em 2019, chegando ao Brasil só agora). Pesquisado e usado o UPC real de uma versão equivalente já catalogada há anos pela Sideshow (SKU 912032, UPC 618231950713, mesma franquia "Marvel Comics - X-Men", mesmo tamanho ~18cm) — a ficha da Sideshow não lista o acessório do capacete do Cérebro explicitamente, mas as fotos oficiais do site brasileiro confirmam que o acessório existe de verdade nesta versão. SKU/MPN usa o mesmo código (912032) pela mesma razão (código do site BR também não parece real).
+
+**Iron Studios Hawkman 10th Anniversary DC Comics 1/10 Scale Statue** — SKU e UPC reais confirmados direto no campo `barcode` do Shopify oficial (`091069` / `618231956753`), sem ressalva. Base diorama comemorativa de 10 anos da Iron Studios, inspirada em ruínas egípcias, com selo exclusivo. Foto de capa (escala/dimensão) tem marca d'água "Pending Approval" — única fonte disponível pra esse ângulo, mesma regra já aplicada a outros itens sem alternativa.
+
+Ambos: Condição = Novo (pré-lançamento, sem possibilidade de ser usado), preço em branco. Fotos hospedadas em `professor-x-gallery/` (3 fotos) e `hawkman-gallery/` (9 fotos).
+
+Galeria de validação: Artifact separado (fora do repo) — link enviado ao dono.
