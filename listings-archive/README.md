@@ -687,3 +687,9 @@ Dois itens novos pedidos pelo dono a partir de links de pré-lançamento recebid
 Ambos: Condição = Novo (pré-lançamento, sem possibilidade de ser usado), preço em branco. Fotos hospedadas em `professor-x-gallery/` (3 fotos) e `hawkman-gallery/` (9 fotos).
 
 Galeria de validação: Artifact separado (fora do repo) — link enviado ao dono.
+
+## Novo lote 2026-11-19 — Kit Mortal Kombat (4 estátuas em 1 anúncio, comprador específico)
+
+| [`mortal-kombat-lote4-goro-raiden-subzero-scorpion-2026-11-19.xlsx`](mortal-kombat-lote4-goro-raiden-subzero-scorpion-2026-11-19.xlsx) | Kit Goro + Raiden + Sub-Zero + Scorpion (Iron Studios Art Scale 1/10, usados) num anúncio só | 1 linha (linha 5) | 2026-11-19 |
+
+Preço US$ 1.354,50 = (500 + 330 + 320 + 300) − 13% de desconto prometido (US$ 1.261,50) + US$ 93 de frete extra (frete combinado: US$ 62 a 1ª figura + 50% = US$ 31 por figura adicional; o perfil de frete do anúncio já cobra os US$ 62). Handling time 10 dias úteis (coluna Max dispatch time + descrição), combinado com o comprador. UPC emprestado do Goro (602883134133) — o kit não tem código próprio. 4 fotos (uma capa de cada personagem). Os 4 anúncios individuais continuam ativos — encerrar quando o kit vender.
