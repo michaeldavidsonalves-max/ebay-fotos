@@ -693,3 +693,11 @@ Galeria de validação: Artifact separado (fora do repo) — link enviado ao don
 | [`mortal-kombat-lote4-goro-raiden-subzero-scorpion-2026-11-19.xlsx`](mortal-kombat-lote4-goro-raiden-subzero-scorpion-2026-11-19.xlsx) | Kit Goro + Raiden + Sub-Zero + Scorpion (Iron Studios Art Scale 1/10, usados) num anúncio só | 1 linha (linha 5) | 2026-11-19 |
 
 Preço US$ 1.354,50 = (500 + 330 + 320 + 300) − 13% de desconto prometido (US$ 1.261,50) + US$ 93 de frete extra (frete combinado: US$ 62 a 1ª figura + 50% = US$ 31 por figura adicional; o perfil de frete do anúncio já cobra os US$ 62). Handling time 10 dias úteis (coluna Max dispatch time + descrição), combinado com o comprador. UPC emprestado do Goro (602883134133) — o kit não tem código próprio. 4 fotos (uma capa de cada personagem). Os 4 anúncios individuais continuam ativos — encerrar quando o kit vender.
+
+## Novo lote 2026-11-20 — ONTHEFIGURE mega-lote Iron Studios (35 anúncios, já subidos no eBay)
+
+| [`onthefigure-mega-lote-iron-studios-2026-11-20.xlsx`](onthefigure-mega-lote-iron-studios-2026-11-20.xlsx) | Mega-lote Iron Studios (Geralt, BTTF2, LOTR, Marvel/DC Comics, Batman etc.) — 35 anúncios, todos usados, com preços já definidos pelo dono | 35 linhas (linhas 5–39) | 2026-11-20 |
+
+Validado via galeria de fotos em Artifact antes de montar a planilha (link enviado ao dono, não arquivado aqui). Dois bundles (1 anúncio = várias estátuas): Set de 3 Orcs do Senhor dos Anéis, e Set Spider-Man/Venom/Spider-Gwen/Carnage (Raphael Albuquerque Art Scale 1:10). Subido no eBay pelo dono — 1 erro de validação (UPC inválido, faltando um dígito, no item Batman: The Dark Knight Returns 1/6 Diorama) corrigido depois do envio (UPC certo: 602883134805). [`onthefigure-mega-lote-RETRY-dark-knight-returns-2026-11-20.xlsx`](onthefigure-mega-lote-RETRY-dark-knight-returns-2026-11-20.xlsx) é o arquivo de reenvio só com essa linha ativa (as outras 34 ficam com Action em branco pra não duplicar o que já subiu com sucesso).
+
+Itens ainda pendentes (não entraram neste lote, resolver depois): Jaspion, Robin '66, Shazam, Batman Black Version Deluxe, Batman Unleashed, Batman Esquadrão Suicida, Batman vs Superman (padrão e blindado), Spider-Man 1/10 genérico, Harley Quinn/Lobo/Dr. Octopus/Poison Ivy/Juggernaut solo/Homem Elástico/Psylocke/Pantera Negra (versões antigas não localizadas).
