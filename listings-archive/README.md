@@ -7,8 +7,8 @@ do repo = tudo que precisa pra recriar os anúncios do zero em outra conta.
 
 ## 📋 Lista master
 
-**[`MASTER-anuncios-ebay.xlsx`](MASTER-anuncios-ebay.xlsx)** (também em [`.csv`](MASTER-anuncios-ebay.csv)): uma linha por SKU, com todos os 429 anúncios já preparados em qualquer lote. Mostra título, preço, condição, UPC, **status no eBay** (ao vivo / não confirmado / removido), ItemID quando há relatório de upload, lote de origem, foto de capa e descrição HTML. A aba **Resumo** traz os totais por status e por lote.
-Atualizada em 25/11/2026: 267 ao vivo, 154 não confirmados (prontos na planilha do lote, mas sem registro de upload com sucesso; conferir no Seller Hub) e 8 removidos.
+**[`MASTER-anuncios-ebay.xlsx`](MASTER-anuncios-ebay.xlsx)** (também em [`.csv`](MASTER-anuncios-ebay.csv)): **1 linha por PRODUTO, sem repetidos** (408 produtos únicos). Traz título, preço, condição, UPC, status no eBay, ItemID, lote de origem, capa, descrição e observações. Para reanunciar, filtre o que quer subir e use a linha pronta na planilha do lote (coluna I). A aba **Excluídos** guarda as 13 cópias repetidas (mesmo produto já ao vivo com outro SKU) e os 8 itens removidos do Star Wars v2. Para regenerar: `gerar_master_dados.py` e depois `gerar_master_planilha.py`.
+Situação em 25/11/2026: 267 ao vivo e 141 não confirmados (conferir no Seller Hub). ⚠ Peni Parker aparece 2x ao vivo com o mesmo UPC; conferir e encerrar um.
 
 ## Lotes arquivados
 
