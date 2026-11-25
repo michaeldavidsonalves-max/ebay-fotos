@@ -5,6 +5,11 @@ pra caso a conta do eBay seja perdida/banida um dia — as fotos e descrições 
 neste mesmo repositório (pastas `*-gallery/` e `descriptions/`), então cada arquivo aqui + o resto
 do repo = tudo que precisa pra recriar os anúncios do zero em outra conta.
 
+## 📋 Lista master
+
+**[`MASTER-anuncios-ebay.xlsx`](MASTER-anuncios-ebay.xlsx)** (também em [`.csv`](MASTER-anuncios-ebay.csv)): uma linha por SKU, com todos os 429 anúncios já preparados em qualquer lote. Mostra título, preço, condição, UPC, **status no eBay** (ao vivo / não confirmado / removido), ItemID quando há relatório de upload, lote de origem, foto de capa e descrição HTML. A aba **Resumo** traz os totais por status e por lote.
+Atualizada em 25/11/2026: 267 ao vivo, 154 não confirmados (prontos na planilha do lote, mas sem registro de upload com sucesso; conferir no Seller Hub) e 8 removidos.
+
 ## Lotes arquivados
 
 | Arquivo | Lote | Linhas | Data |
